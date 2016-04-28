@@ -1,11 +1,5 @@
-{application, elli_access_log,
- [
-  {description, "Elli middleware to provide an access log via syslog"},
-  {vsn, "1.1"},
-  {registered, []},
-  {applications, [
-                  kernel,
-                  stdlib
-                 ]},
-  {env, []}
- ]}.
+{application, elli_access_log, [
+  {description, "Elli middleware to provide an access log via syslog."},
+  {vsn, "1.2.0"},
+  {applications, [kernel, stdlib]}
+]}.
