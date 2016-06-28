@@ -18,7 +18,7 @@ start_link(Name, MsgOpts) ->
     gen_server:start_link({local, ?MODULE}, ?MODULE, [Name, MsgOpts], []).
 
 log(Name, Msg) ->
-    (catch ets:insert(Name, {erlang:now(), Msg})).
+    (catch ets:insert(Name, {os:timestamp(), Msg})).
 
 %%
 %% gen_server callbacks
