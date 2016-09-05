@@ -1,4 +1,4 @@
 [{<<"syslog">>,
-  {git,"git://github.com/yurrriq/erlang-syslog.git",
+  {git,"git://github.com/elli-lib/erlang-syslog.git",
        {ref,"774ce419f6449ab102277348579e30b838accde9"}},
   0}].
